@@ -5,6 +5,7 @@ $namalengkap = $_POST['nama_lgkp'];
 $noidentitas = $_POST['identitas'];
 $tipekamar = $_POST['tipe_kamar'];
 $durasitinggal = $_POST['wktu_menginap'];
+$xtrabed = $_POST['extrabed'];
 $deluxe = 300000;
 $superior = 650000;
 ?>
@@ -36,6 +37,7 @@ $superior = 650000;
                $total_biaya = $superior * $durasitinggal;
                 echo "Rp. &nbsp".$total_biaya;
             };
+                echo "Extra Bed : ".$xtrabed."<br><br>"
             
                 
 
