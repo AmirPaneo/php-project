@@ -36,7 +36,10 @@
         <br>
         <label>Waktu Menginap :</label>
         <input type="number" name="wktu_menginap"> Malam
-
+            <br>
+            <br>
+        <label> Extra Bed : </label>
+        <input type="number" name="extrabed" required>
             <br>
             <br>
         <input type="submit" value="Get Orders!">
